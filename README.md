@@ -1,24 +1,21 @@
-# GAS-agusys
+# agusys-LIFF
 
-## LINEbot 版あぐしす
+## LINEbot 版あぐしす用 入力フォーム（データ操作）
 
 ### 用途
 
-- 被災状況の報告
-- 復旧後の確認
+- 入力フォームからスプレッドシートへの書き込み
+- スプレッドシートからの読み込み（予定）
 
 ### できること
 
-- 位置情報の送信・スプレッドシートへの記録
-- 写真/動画の撮影・Google ドライブへの保存
-- テキストによる記録の保存
+- データ受け渡し用
 
-### QR コード
+### エンドポイント
 
-https://qr-official.line.me/sid/L/078pbmca.png
+https://script.google.com/macros/s/AKfycbzaVNDgAjKXjQxq1xPIc1FNtnIqrmr6ylRKlHjGnrsWi7gJun5-Xjh11wm4s6L3a-_g/exec
 
 ### 開発環境
 
-- LINE Messaging API
 - Google Apps Script
 - Clasp / TypeScript / Eslint / Prettier

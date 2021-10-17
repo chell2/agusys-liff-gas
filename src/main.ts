@@ -32,7 +32,7 @@ function doPost(e: any) {
 
 function doGet(e: any) {
   const sheetData = reportSheet!.getRange(lastRow, 1, 1, 5).getValues();
-  let response = sheetData[0][1];
+  let response = sheetData[0][0];
   return textOut(response);
 }
 
