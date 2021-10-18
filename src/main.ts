@@ -1,5 +1,5 @@
 // doPost: 入力フォームからスプレッドシートに記録
-// doGet: スプレッドシートから入力フォームに表示
+// doGet: スプレッドシートから対象の農地IDを取得
 declare var google: any;
 
 const prop = PropertiesService.getScriptProperties().getProperties();
@@ -27,7 +27,6 @@ function doPost(e: any) {
     .getRange(lastRow, 7, 1, postArray[0].length)
     .setValues(postArray);
   return textOut("記録しました！");
-  // return google.script.host.close();
 }
 
 function doGet(e: any) {
@@ -41,14 +40,8 @@ function doGet(e: any) {
 // <form
 // 	method="GET"
 // 	action=""
-// 	<p>get_param1</p>
-// 	<input name="get_param1" type="text" />
-// 	<p>get_param2</p>
-// 	<input name="get_param2" type="text" />
-// 	<p>get_param3</p>
-// 	<input name="get_param3" type="text" />
-// 	<p>get_param4</p>
-// 	<input name="get_param4" type="text" />
+// 	<p>get_param</p>
+// 	<input name="get_param" type="text" />
 // 	<br />
 // 	<button type="submit">get</button>
 // </form>
