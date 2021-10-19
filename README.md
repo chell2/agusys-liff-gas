@@ -13,7 +13,7 @@
 
 ### エンドポイント
 
-https://script.google.com/macros/s/AKfycbzaVNDgAjKXjQxq1xPIc1FNtnIqrmr6ylRKlHjGnrsWi7gJun5-Xjh11wm4s6L3a-_g/exec
+:seedling: https://script.google.com/macros/s/AKfycbzaVNDgAjKXjQxq1xPIc1FNtnIqrmr6ylRKlHjGnrsWi7gJun5-Xjh11wm4s6L3a-_g/exec
 
 ### 開発環境
 
